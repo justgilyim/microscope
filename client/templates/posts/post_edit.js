@@ -1,7 +1,3 @@
-/**
- * Created by Kelsie on 11/2/2015.
- */
-
 Template.postEdit.events({
   'submit form': function(e) {
     e.preventDefault();

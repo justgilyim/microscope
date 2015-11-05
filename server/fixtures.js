@@ -1,7 +1,3 @@
-/**
- * Created by Kelsie on 10/28/2015.
- */
-
 if (Posts.find().count() === 0) {
   Posts.insert({
     title: 'Introducing Telescope',

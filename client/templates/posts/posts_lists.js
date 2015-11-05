@@ -1,6 +1,3 @@
-/**
- * Created by Kelsie on 10/28/2015.
- */
 var postsData = [
   {
     title: 'Introducing Telescope',

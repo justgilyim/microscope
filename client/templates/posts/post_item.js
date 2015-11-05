@@ -1,6 +1,3 @@
-/**
- * Created by Kelsie on 10/28/2015.
- */
 Template.postItem.helpers({
   ownPost: function() {
     return this.userId === Meteor.userId();
