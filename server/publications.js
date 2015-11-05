@@ -1,6 +1,6 @@
 /**
- * Created by Gilbert on 10/28/2015.
+ * Created by Kelsie on 10/28/2015.
  */
-Meteor.publish("posts", function () {
+Meteor.publish('posts', function() {
   return Posts.find();
 });

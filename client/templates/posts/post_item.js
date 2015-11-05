@@ -1,7 +1,10 @@
 /**
- * Created by Gilbert on 10/28/2015.
+ * Created by Kelsie on 10/28/2015.
  */
 Template.postItem.helpers({
+  ownPost: function() {
+    return this.userId === Meteor.userId();
+  },
   domain: function() {
     var a = document.createElement('a');
     a.href = this.url;

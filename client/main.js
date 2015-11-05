@@ -1,4 +1,4 @@
 /**
- * Created by Gilbert on 10/28/2015.
+ * Created by Kelsie on 10/28/2015.
  */
-Meteor.subscribe("posts");
+// Meteor.subscribe('posts');
